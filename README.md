@@ -1,2 +1,4 @@
 # datolya.github.io
-Data toolbox and thoughts. Edited by Sebestyen
+Tips and tricks for Data Engineering & Analytics 
+
+Edited by Sebestyen
