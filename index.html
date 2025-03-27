@@ -3,5 +3,43 @@ layout: default
 title: Home
 ---
 
-<h1>In progress</h1>
-<p>In progress ...</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        .projects-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .project img {
+            width: 300px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .project img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">My Projects</h2>
+
+    <div class="projects-container">
+        <div class="project">
+            <a href="https://datolya.github.io/big-data-spark-scala-vs-python/" target="_blank">
+                <img src="./assets/spark.jpg" alt="Big Data Spark vs Python">
+            </a>
+            <p>In progress...</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+

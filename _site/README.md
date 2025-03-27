@@ -1,5 +1,4 @@
 # datolya.github.io
-Thoughts and insights on Analytics & BI.
-Tips and tricks for Data Engineering. 
+Tips and tricks for Data Engineering & Analytics 
 
 Edited by Sebestyen
