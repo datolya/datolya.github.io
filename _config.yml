@@ -1,4 +1,5 @@
 description: "Data toolbox and thoughts. Edited by Sebestyen"
 remote_theme: "pages-themes/tactile@v0.2.0"
+footer_text: "Copyright © Sebestyén Gergely"
 plugins:
   - jekyll-remote-theme
