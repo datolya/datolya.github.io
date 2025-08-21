@@ -1,10 +1,9 @@
 const jobTitles = [
-  'Data Engineer',
-  'Data Analyst',
-  'Analytics Engineer',
-  'Financial Analyst',
-  'ETL Developer',
-  'Business Analyst'
+  'Data Architect',
+  'Big Data Consultant',
+  'Cloud Data Engineer',
+  'M&A Analyst',
+  'Payment Systems Advisor',
 ];
 
 let currentTitleIndex = 0;
