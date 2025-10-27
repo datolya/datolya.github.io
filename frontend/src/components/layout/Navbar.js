@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from '../../assets/datolya-logo.png';
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
       <div className="container">
         <a className="navbar-brand fw-bold d-flex align-items-center" href="#home">
-          <img src={logo} alt="Datolya Logo" height="30" className="me-2" />
+          <img src="/images/datolya-logo.png" alt="Datolya Logo" height="30" className="me-2" />
           <div className="d-flex flex-column">
             <span style={{
               fontFamily: "'Cormorant Garamond', 'Georgia', serif",

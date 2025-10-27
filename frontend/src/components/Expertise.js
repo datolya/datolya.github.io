@@ -1,50 +1,17 @@
 import React from 'react';
 
-// Import all your tech logos
-import sparkLogo from '../assets/spark.png';
-import airflowLogo from '../assets/airflow.png';
-import kafkaLogo from '../assets/kafka.png';
-import databricksLogo from '../assets/databricks.png';
-import dbtLogo from '../assets/dbt.png';
-import airbyteLogo from '../assets/airbyte.png';
-import gcpLogo from '../assets/gcp.png';
-import awsLogo from '../assets/aws.png';
-import lookerLogo from '../assets/looker.png';
-import powerbiLogo from '../assets/powerbi.png';
-import hexLogo from '../assets/hex.png';
-import jupyterLogo from '../assets/jupyter.png';
-import tableauLogo from '../assets/tableau.png';
-import metabaseLogo from '../assets/metabase.png';
-import pythonLogo from '../assets/python.png';
-import sqlLogo from '../assets/sql.png';
-import scalaLogo from '../assets/scala.png';
-import rLogo from '../assets/r.png';
-import gitLogo from '../assets/git.png';
-import bashLogo from '../assets/bash.png';
-import terraformLogo from '../assets/terraform.png';
-import circleciLogo from '../assets/circleci.png';
-import dockerLogo from '../assets/docker.png';
-import kubernetesLogo from '../assets/kubernetes.png';
-import githubActionsLogo from '../assets/github_actions.png';
-import stripeLogo from '../assets/stripe.png';
-import adyenLogo from '../assets/adyen.png';
-import paypalLogo from '../assets/paypal.png';
-import braintreeLogo from '../assets/braintree.png';
-import appleLogo from '../assets/apple.png';
-import googleLogo from '../assets/google.png';
-
 function Expertise() {
   const techCategories = [
     {
       title: "Data Processing",
       description: "Performant, high-load bearing and scalable pipelines. Move raw information to clean destinations. Real-time streaming to batch processing, orchestration, yes - and no-code tools. We architect solutions that handle millions of events reliably and efficiently.",
       items: [
-        { name: "Spark", logo: sparkLogo },
-        { name: "Airflow", logo: airflowLogo },
-        { name: "Kafka", logo: kafkaLogo },
-        { name: "Databricks", logo: databricksLogo },
-        { name: "dbt", logo: dbtLogo },
-        { name: "Airbyte", logo: airbyteLogo }
+        { name: "Spark", logo: "/images/spark.png" },
+        { name: "Airflow", logo: "/images/airflow.png" },
+        { name: "Kafka", logo: "/images/kafka.png" },
+        { name: "Databricks", logo: "/images/databricks.png" },
+        { name: "dbt", logo: "/images/dbt.png" },
+        { name: "Airbyte", logo: "/images/airbyte.png" }
       ]
     },
     {
@@ -53,12 +20,12 @@ function Expertise() {
       items: [
         {
           name: "GCP",
-          logo: gcpLogo,
+          logo: "/images/gcp.png",
           subservices: ["BigQuery", "Cloud Storage", "Dataflow", "Pub/Sub", "Cloud Functions", "Cloud Run"]
         },
         {
           name: "AWS",
-          logo: awsLogo,
+          logo: "/images/aws.png",
           subservices: ["S3", "Redshift", "Lambda", "EC2", "RDS", "Glue"]
         }
       ]
@@ -67,47 +34,47 @@ function Expertise() {
       title: "Analytics & BI",
       description: "Data-to-Decision with graphical and interactive instruments - business intelligence, self-service tools, and automated reporting to empower stakeholders of every domain.",
       items: [
-        { name: "Looker", logo: lookerLogo },
-        { name: "PowerBI", logo: powerbiLogo },
-        { name: "Hex", logo: hexLogo },
-        { name: "Jupyter", logo: jupyterLogo },
-        { name: "Tableau", logo: tableauLogo },
-        { name: "Metabase", logo: metabaseLogo }
+        { name: "Looker", logo: "/images/looker.png" },
+        { name: "PowerBI", logo: "/images/powerbi.png" },
+        { name: "Hex", logo: "/images/hex.png" },
+        { name: "Jupyter", logo: "/images/jupyter.png" },
+        { name: "Tableau", logo: "/images/tableau.png" },
+        { name: "Metabase", logo: "/images/metabase.png" }
       ]
     },
     {
       title: "Programming",
       description: "The backbone to data workflows is efficient, documented and maintainable code. Transform, analyse and automate business development. From light-weight scripting and complex business queries, to heavy lifting functional or object-oriented repositories. We deliver both performant and elegant code.",
       items: [
-        { name: "Python", logo: pythonLogo },
-        { name: "SQL", logo: sqlLogo },
-        { name: "Scala", logo: scalaLogo },
-        { name: "R", logo: rLogo }
+        { name: "Python", logo: "/images/python.png" },
+        { name: "SQL", logo: "/images/sql.png" },
+        { name: "Scala", logo: "/images/scala.png" },
+        { name: "R", logo: "/images/r.png" }
       ]
     },
     {
       title: "System & DevOps",
       description: "Efficient, cost saving and maintainable system components which quietly power data and business automation. Computing, dev-ops, infra as code, containerization, CI/CD. Build reliable deployment pipelines that enable rapid iteration and maintain overall stability.",
       items: [
-        { name: "Git", logo: gitLogo },
-        { name: "Bash", logo: bashLogo },
-        { name: "Terraform", logo: terraformLogo },
-        { name: "CircleCI", logo: circleciLogo },
-        { name: "Docker", logo: dockerLogo },
-        { name: "K8S", logo: kubernetesLogo },
-        { name: "GH-Actions", logo: githubActionsLogo }
+        { name: "Git", logo: "/images/git.png" },
+        { name: "Bash", logo: "/images/bash.png" },
+        { name: "Terraform", logo: "/images/terraform.png" },
+        { name: "CircleCI", logo: "/images/circleci.png" },
+        { name: "Docker", logo: "/images/docker.png" },
+        { name: "K8S", logo: "/images/kubernetes.png" },
+        { name: "GH-Actions", logo: "/images/github_actions.png" }
       ]
     },
     {
       title: "Payments",
       description: "Navigate the multi-agent payment processing scene with our expertise to re-conciliate individual providers as a single source of truth. Secure, compliant payment flows that optimize conversion, provide a seamless checkout experience, and power accounting projections.",
       items: [
-        { name: "Stripe", logo: stripeLogo },
-        { name: "Adyen", logo: adyenLogo },
-        { name: "PayPal", logo: paypalLogo },
-        { name: "Braintree", logo: braintreeLogo },
-        { name: "ApplePay", logo: appleLogo },
-        { name: "GooglePay", logo: googleLogo }
+        { name: "Stripe", logo: "/images/stripe.png" },
+        { name: "Adyen", logo: "/images/adyen.png" },
+        { name: "PayPal", logo: "/images/paypal.png" },
+        { name: "Braintree", logo: "/images/braintree.png" },
+        { name: "ApplePay", logo: "/images/apple.png" },
+        { name: "GooglePay", logo: "/images/google.png" }
       ]
     }
   ];
@@ -210,66 +177,91 @@ function Expertise() {
             opacity: 0.15;
           }
           50% {
-            transform: scale(1.3);
+            transform: scale(1.2);
             opacity: 0.25;
           }
         }
 
         @keyframes flow-horizontal {
-          0% {
-            background-position: 0% 50%;
-          }
-          100% {
-            background-position: 200% 50%;
-          }
+          0% { background-position: 0% 0%; }
+          100% { background-position: 200% 0%; }
         }
 
         @keyframes flow-vertical {
-          0% {
-            background-position: 50% 0%;
-          }
-          100% {
-            background-position: 50% 200%;
-          }
+          0% { background-position: 0% 0%; }
+          100% { background-position: 0% 200%; }
         }
 
-        .expertise .pipeline-node.pulse {
-          width: 24px;
-          height: 24px;
-          background: radial-gradient(circle, rgba(160, 130, 100, 0.25) 0%, rgba(160, 130, 100, 0.05) 70%, transparent 100%);
+        .data-pipeline-network {
+          position: absolute;
+          top: 0; left: 0;
+          width: 100%; height: 100%;
+          pointer-events: none;
+          z-index: 1;
+          overflow: hidden;
+        }
+
+        .pipeline-node {
+          position: absolute;
+          width: 12px;
+          height: 12px;
           border-radius: 50%;
-          filter: blur(6px);
-          animation: pulse-node 8s ease-in-out infinite;
-          transform: translate(-50%, -50%);
+          background: rgba(139, 107, 74, 0.2);
+          box-shadow: 0 0 20px rgba(139, 107, 74, 0.15);
+          z-index: 3;
         }
 
-        .expertise .pipeline-line {
-          filter: blur(2px);
+        .pipeline-node.pulse {
+          animation: pulse-node 3s ease-in-out infinite;
         }
 
-        .expertise .pipeline-line.animated-flow {
-          background: linear-gradient(90deg,
-            rgba(160, 130, 100, 0.05) 0%,
-            rgba(160, 130, 100, 0.12) 20%,
-            rgba(178, 140, 104, 0.18) 40%,
-            rgba(178, 140, 104, 0.2) 50%,
-            rgba(178, 140, 104, 0.18) 60%,
-            rgba(160, 130, 100, 0.12) 80%,
-            rgba(160, 130, 100, 0.05) 100%
+        .pipeline-line {
+          position: absolute;
+          background: linear-gradient(
+            90deg,
+            transparent 0%,
+            rgba(139, 107, 74, 0.12) 25%,
+            rgba(139, 107, 74, 0.2) 50%,
+            rgba(139, 107, 74, 0.12) 75%,
+            transparent 100%
           );
-          background-size: 200% 100%;
-          animation: flow-horizontal 12s linear infinite;
+          z-index: 2;
         }
 
-        .expertise .pipeline-line.animated-flow-vertical {
-          background: linear-gradient(180deg,
-            rgba(160, 130, 100, 0.05) 0%,
-            rgba(160, 130, 100, 0.12) 20%,
-            rgba(178, 140, 104, 0.18) 40%,
-            rgba(178, 140, 104, 0.2) 50%,
-            rgba(178, 140, 104, 0.18) 60%,
-            rgba(160, 130, 100, 0.12) 80%,
-            rgba(160, 130, 100, 0.05) 100%
+        .pipeline-line.horizontal {
+          height: 2px;
+          background-size: 200% 100%;
+        }
+
+        .pipeline-line.vertical {
+          width: 2px;
+          background: linear-gradient(
+            180deg,
+            transparent 0%,
+            rgba(139, 107, 74, 0.12) 25%,
+            rgba(139, 107, 74, 0.2) 50%,
+            rgba(139, 107, 74, 0.12) 75%,
+            transparent 100%
+          );
+          background-size: 100% 200%;
+        }
+
+        .pipeline-line.diagonal {
+          height: 2px;
+        }
+
+        .pipeline-line.animated-flow {
+          animation: flow-horizontal 8s linear infinite;
+        }
+
+        .pipeline-line.animated-flow-vertical {
+          background: linear-gradient(
+            180deg,
+            transparent 0%,
+            rgba(139, 107, 74, 0.12) 25%,
+            rgba(139, 107, 74, 0.2) 50%,
+            rgba(139, 107, 74, 0.12) 75%,
+            transparent 100%
           );
           background-size: 100% 200%;
           animation: flow-vertical 12s linear infinite;
@@ -377,11 +369,11 @@ function Expertise() {
           filter: brightness(0) saturate(100%);
         }
 
-        /* Keep Spark, Metabase, and Docker with original colors */
+        /* Keep Spark, Metabase, Docker, and Python with original colors */
         .expertise-item img[alt="Spark"],
         .expertise-item img[alt="Metabase"],
         .expertise-item img[alt="Docker"],
-         .expertise-item img[alt="Python"]{
+        .expertise-item img[alt="Python"] {
           filter: none;
         }
 

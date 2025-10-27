@@ -12,7 +12,7 @@ function Portfolio() {
           <small>Stripe, PayPal, Adyen, Apple, Google</small>
         </>
       ),
-      image: require("../assets/unsplash_payments.jpg"),
+      image: "/images/unsplash_payments.jpg",
       link: "https://www.upwork.com/services/product/development-it-payments-data-architecture-stripe-paypal-adyen-applepay-googlepay-1960747473827057113?ref=fl_profile"
     },
     {
@@ -25,7 +25,7 @@ function Portfolio() {
           <small>Glue, S3, Athena, Redshift, Spark, Docker, K8S</small>
         </>
       ),
-      image: require("../assets/unsplash_aws.jpg"),
+      image: "/images/unsplash_aws.jpg",
       link: "https://www.upwork.com/services/product/development-it-cloud-data-engineering-consulting-1960738275191146820?ref=fl_profile"
     },
     {
@@ -38,7 +38,7 @@ function Portfolio() {
           <small>BigQuery, GCS, Airflow, Dataflow, Docker, K8S </small>
         </>
       ),
-      image: require("../assets/unsplash_gcp.jpg"),
+      image: "/images/unsplash_gcp.jpg",
       link: "https://www.upwork.com/services/product/development-it-cloud-data-engineering-consulting-1960738275191146820?ref=fl_profile"
     },
     {
@@ -51,7 +51,7 @@ function Portfolio() {
           <small>plotly, D3.js, QGIS, R, Tableau, Power BI, Metabase</small>
         </>
       ),
-      image: require("../assets/unsplash_rome.jpeg"),
+      image: "/images/unsplash_rome.jpeg",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7365639079574622208/"
     }
   ];
