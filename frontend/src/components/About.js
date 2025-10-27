@@ -451,12 +451,12 @@ function About() {
                 <br />Battle tested at Bending Spoons, WeTransfer, Evernote, central banking & Fintech leaders in BNPL and Banking-as-a-Service. We offer what we've mastered, ready to write code today.
                 <br />
                 <br />
+              </p>
                     <div style={{ marginTop: '1.5rem' }}>
                       <a href="#contact" className="about-cta-button">
                         Let's hear your data challenge!
                       </a>
                     </div>
-              </p>
             </div>
           </div>
         </div>
